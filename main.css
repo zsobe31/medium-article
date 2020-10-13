@@ -37,6 +37,63 @@
     margin: 0 auto;
 }
 
+.one-section h1 {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+.one-section p {
+    padding-top: 15px;
+}
+
+.one-section .img-name img {
+    float: left;
+}
+
+.one-section .img-name a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.one-section .img-one img {
+    margin-top: 20px;
+}
+
+.one-section article {
+    width: 75%;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.one-section article p {
+    margin: 25px 0;
+}
+
+.arti {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote {
+    padding-left: 25px;
+    font-size: 1.6rem;
+    border-left: 3px solid blue;
+    text-align: left;
+}
+
+article a {
+    color: black;
+}
+
+
+/* footer */
+
 .footer {
     background-color: #eeeef0;
 }
@@ -44,6 +101,7 @@
 .left-container,
 .right-container {
     width: 50%;
+    height: 400px;
 }
 
 .left-container {
@@ -52,4 +110,65 @@
 
 .right-container {
     float: right;
+}
+
+.footer footer {
+    text-align: center;
+    height: 60px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.footer hr {
+    width: 75%;
+    margin: 30px auto;
+}
+
+.footer .right-container {
+    float: right;
+    padding-top: 30px;
+}
+
+.left-container p {
+    padding: 20px 30px;
+    margin-right: 30px;
+    margin-left: 120px;
+    line-height: 1.5rem;
+}
+
+.left-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-container td {
+    padding: 5px 10px;
+}
+
+.right-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-container caption {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    padding: 10px 8px;
+    font-size: .9rem;
+    text-decoration: none;
+    color: black;
 }
